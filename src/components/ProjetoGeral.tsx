@@ -25,7 +25,7 @@ const ProjetoGeral: React.FC<ProjetoGeralProps> = ({ titulo, descricao, imagem, 
                         </a>
                     </div>
                     <div className="flex gap-3 h-full w-full items-end ">
-                        {categoria.map((id, index) => {
+                        {categoria.map((id) => {
                             const tecnologia = tecnologias[id];
                             return (
                                 <div 

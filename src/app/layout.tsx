@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 

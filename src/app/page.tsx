@@ -1,9 +1,9 @@
 'use client'
 import Cabecalho from "@/components/template/Cabecalho";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 
 const HeroSection: React.FC = () => {
-  const words = ["Fullstack", "Frontend", "Backend"];
+  const words = useMemo(() => ["Fullstack", "Frontend", "Backend"], []);
   const [currentWord, setCurrentWord] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopIndex, setLoopIndex] = useState(0);
