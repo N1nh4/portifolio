@@ -40,10 +40,10 @@ export default function Sobre() {
                     <a href="https://www.linkedin.com/in/alana-abreu/" target="_blank">
                     <img src="/imagens/linkedin.svg" alt="linkedin" className="transition-transform duration-300 ease-in-out transform hover:scale-125"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/alana-abreu-6878602a9/" target="_blank">
+                    <a href="https://wa.me/5571986498698" target="_blank">
                         <img src="/imagens/whatsapp.svg" alt="whatsapp" className="transition-transform duration-300 ease-in-out transform hover:scale-125"/>
                     </a>
-                    <a href="mailto:alanaabreu1103@gmail" target="_blank">
+                    <a href="mailto:alanaabreu1103@gmail.com" target="_blank">
                         <img src="/imagens/gmail-novo.svg" alt="gmail" className="transition-transform duration-300 ease-in-out transform hover:scale-125"/>
                     </a>
                     <a href="https://github.com/N1nh4" target="_blank">
