@@ -13,9 +13,9 @@ interface ProjetoProps {
 const ProjetoDestaque: React.FC<ProjetoProps> = ({ titulo, descricao, imagem, categoria, saibaMais}) => {
 
     return (
-        <div className="flex justify-center items-center ">
+        <div className="flex flex-col-reverse md:flex-row justify-center items-center ">
             
-            <div className="flex flex-col w-96 ">
+            <div className="flex flex-col w-96 pl-8 pr-8 lg:pl-0 lg:pr-0">
                 <h1 className="font-bold ">{titulo}</h1>
                 <br />
                 <p>{descricao}</p>

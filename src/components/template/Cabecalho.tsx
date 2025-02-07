@@ -26,32 +26,32 @@ export default function Cabecalho() {
     
 
     return (
-        <div className="flex items-center gap-11 pl-9 bg-[#D7DADE] text-black w-full h-16 fixed top-0 left-0 shadow-md dark:text-white dark:bg-gray-700 z-10 dark:shadow-[0_3px_5px_rgba(255,255,255,0.2)]">
+        <div className="flex items-center gap-6 md:gap-11 lg:gap-11 pl-9 bg-[#D7DADE] text-black w-full h-16 fixed top-0 left-0 shadow-md dark:text-white dark:bg-gray-700 z-10 dark:shadow-[0_3px_5px_rgba(255,255,255,0.2)]">
             <Link href={"/"}>
-                <span className={`flex ${pathname === '/' ? 'text-blue-500 ' : ''}`}>
+                <div className={`flex ${pathname === '/' ? 'text-blue-500 ' : ''}`}>
                     <IconHome viewBox="0 0 24 21" size={18} className="mr-1"/>
-                    Home
-                </span>
+                    <span className="hidden md:block">Home</span>
+                </div>
             </Link>
             <Link href={"/Projetos"}>
-                <span className={`flex ${pathname === '/Projetos' ? 'text-blue-500 ' : ''}`}>
+                <div className={`flex ${pathname === '/Projetos' ? 'text-blue-500 ' : ''}`}>
                     <IconTool viewBox="0 0 24 21" size={18} className="mr-1"/> 
-                    Projetos
-                </span>
+                    <span className="hidden md:block">Projetos</span>
+                </div>
             </Link>
             <Link href={"/Sobre"}>
-                <span className={`flex ${pathname === '/Sobre' ? 'text-blue-500 ' : ''}`}>
+                <div className={`flex ${pathname === '/Sobre' ? 'text-blue-500 ' : ''}`}>
                     <IconNotes viewBox="2 0 24 21" size={18} className="mr-1"/>
-                    Sobre mim
-                </span> 
+                    <span className="hidden md:block">Sobre mim</span>
+                </div> 
             </Link>
             
 
-            <div className="flex flex-1 justify-end gap-11 items-center pr-9 w-full">
+            <div className="flex flex-1 justify-end gap-6 md:gap-11 lg:gap-11 items-center pr-9 w-full">
 
                 
                 <div className="flex items-center">
-                    <span className="mr-2 text-black dark:text-white">Tema</span>
+                    <span className="hidden md:block mr-2 text-black dark:text-white">Tema</span>
                     <div className="flex bg-gray-400 w-10 h-4 rounded-2xl">
                         <button 
                             className={`bg-white dark:bg-white w-4 h-4 rounded-full transform ${isDarkMode ? 'translate-x-6' : ''}`} 

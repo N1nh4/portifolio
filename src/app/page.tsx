@@ -36,10 +36,10 @@ const HeroSection: React.FC = () => {
   return (
     <div className="flex flex-col items-center pb-20 justify-center h-screen">
       <Cabecalho />
-      <h1 className="text-6xl font-bold text-center">
+      <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-center">
         Olá, eu sou Alana Abreu
       </h1>
-      <p className="text-4xl mt-4">
+      <p className="text-2xl mg:text-4xl lg:text-4xl mt-4">
         Desenvolvedora{" "}
         <span className="text-blue-500">{currentWord}</span>
         <span className="blinking-cursor"></span>

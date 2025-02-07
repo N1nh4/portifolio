@@ -5,12 +5,12 @@ export default function Sobre() {
         <div>
             <Cabecalho />
             <div className=" flex flex-col justify-center items-center mt-28 ">
-                <div className=" flex justify-center items-center">
+                <div className=" flex flex-col md:flex-row justify-center items-center">
                     <div className=" w-48 ">
                         <img src="/imagens/perfil.jpeg" alt="perfil" />
                     </div>
                     <div className="w-80 p-6 flex flex-col">
-                        <h1 className="font-bold">Alana Carolina Pereira Abreu</h1>
+                        <h1 className="font-bold text-center md:text-start">Alana Carolina Pereira Abreu</h1>
 
                         <br />
 
