@@ -10,7 +10,7 @@ export default function Projetos() {
         <div className="">
             <Cabecalho />
             <div className="mt-14 h-[calc(100vh-4rem)] overflow-y-auto">
-                <h2 className="flex justify-center items-center  text-3xl mt-8 font-mono md:text-5xl lg:text-6xl ">Projetos Destaques</h2>
+                <h2 className="flex justify-center items-center  text-3xl mt-12  font-mono md:text-5xl lg:text-6xl ">Projetos Destaques</h2>
                 {projetos.map((projeto) => (
                     <ProjetoDestaque
                         key={projeto.id}
@@ -21,8 +21,8 @@ export default function Projetos() {
                         saibaMais={projeto.saibaMais}
                     />
                 ) )}
-                <h2 className="flex justify-center items-center font-bold text-3xl md:text-5xl lg:text-6xl mt-8 font-mono">Outros Projetos</h2>
-                <div className="flex justify-center items-center  md:p-24 lg:p-24">
+                <h2 className="flex justify-center items-center text-3xl md:text-5xl lg:text-6xl mt-28 font-mono">Outros Projetos</h2>
+                <div className="flex justify-center items-center py-2 md:py-16 lg:py-16 md:p-24 lg:p-24">
                     <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                         {ProjetosGeral.map((projeto) => (
                             <ProjetoGeral
