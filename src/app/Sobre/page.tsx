@@ -1,6 +1,19 @@
 import Cabecalho from "@/components/template/Cabecalho";
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { title } from "process";
 
 export default function Sobre() {
+
+    const items = [
+        { imgSrc: "/imagens/html.svg", alt: "html" },
+        { imgSrc: "/imagens/css.svg", alt: "css" },
+        { imgSrc: "/imagens/java-script.svg", alt: "js" },
+        { imgSrc: "/imagens/tailwind.svg", alt: "tailwind" },
+        { imgSrc: "/imagens/react.svg", alt: "react" },
+        { imgSrc: "/imagens/python.svg", alt: "python" },
+        { imgSrc: "/imagens/mysql.svg", alt: "mysql" },
+        { imgSrc: "/imagens/next-js.svg", alt: "next" },   
+    ];
     return (
         <div>
             <Cabecalho />
@@ -25,16 +38,8 @@ export default function Sobre() {
                     </div>
                 </div>
                 <h2 className="font-bold mt-6">Principais Ferramentas</h2>
-                <div className="flex flex-1 gap-5 mt-4">
-                    <img src="/imagens/html.svg" alt="html" className="transition-transform duration-100 ease-in-out transform hover:scale-125"/>
-                    <img src="/imagens/css.svg" alt="css" className="transition-transform duration-100 ease-in-out transform hover:scale-125"/>
-                    <img src="/imagens/java-script.svg" alt="js" className="transition-transform duration-100 ease-in-out transform hover:scale-125"/>
-                    <img src="/imagens/tailwind.svg" alt="tailwind" className="transition-transform duration-100 ease-in-out transform hover:scale-125"/>
-                    <img src="/imagens/react.svg" alt="react" className="transition-transform duration-100 ease-in-out transform hover:scale-125"/>
-                    <img src="/imagens/python.svg" alt="python" className="transition-transform duration-100 ease-in-out transform hover:scale-125"/>
-                    <img src="/imagens/mysql.svg" alt="mysql" className="transition-transform duration-100 ease-in-out transform hover:scale-125"/>
-                    <img src="/imagens/next-js.svg" alt="nextjs" className="transition-transform duration-100 ease-in-out transform hover:scale-125"/>
-                </div>
+                <InfiniteMovingCards items={items} direction="left" speed="fast" pauseOnHover={true} />
+              
                 <h2 className="font-bold mt-5">Redes Sociais</h2>
                 <div className="flex flex-1 gap-5 m-4">
                     <a href="https://www.linkedin.com/in/alana-abreu/" target="_blank">

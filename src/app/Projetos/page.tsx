@@ -19,6 +19,7 @@ export default function Projetos() {
                         imagem={projeto.imagem}
                         categoria={projeto.categoria}
                         saibaMais={projeto.saibaMais}
+                        invertido={projeto.invertido}
                     />
                 ) )}
                 <h2 className="flex justify-center items-center text-3xl md:text-5xl lg:text-6xl mt-28 font-mono">Outros Projetos</h2>
