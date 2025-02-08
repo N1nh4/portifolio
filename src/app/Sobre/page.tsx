@@ -1,6 +1,6 @@
 import Cabecalho from "@/components/template/Cabecalho";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import { title } from "process";
+
 
 export default function Sobre() {
 
