@@ -11,11 +11,6 @@ interface ProjetoProps {
     invertido?: boolean;
 }
 
-const variants = {
-    hidden: { opacity: 0, x: -100 },
-    visible: { opacity: 1, x: 0 },
-};
-
 const ProjetoDestaque: React.FC<ProjetoProps> = ({ titulo, descricao, imagem, categoria, saibaMais, invertido}) => {
 
     return (
