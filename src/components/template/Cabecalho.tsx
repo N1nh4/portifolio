@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 export default function Cabecalho() {
   const pathname = usePathname();
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false)
 
   useEffect(() => {
     const storedTheme = localStorage.getItem('theme');
@@ -24,7 +24,7 @@ export default function Cabecalho() {
   }
 
   return (
-    <div className="flex items-center gap-6 md:gap-11 lg:gap-11 pl-9 bg-[#D7DADE] text-black w-full h-16 fixed top-0 left-0 shadow-md dark:text-white dark:bg-gray-700 z-50 dark:shadow-[0_3px_5px_rgba(255,255,255,0.2)]">
+    <div className=" flex items-center gap-6 md:gap-11 lg:gap-11 pl-9 bg-[#D7DADE] text-black w-full h-16 fixed top-0 left-0 shadow-md dark:text-white dark:bg-gray-700 z-50 dark:shadow-[0_3px_5px_rgba(255,255,255,0.2)]">
       <Link href={"/"}>
         <div className={`flex ${pathname === '/' ? 'text-blue-500' : ''} hover:text-blue-500`}>
           <IconHome viewBox="0 0 24 21" size={18} className="mr-1"/>

@@ -1,5 +1,6 @@
 'use client'
 import Cabecalho from "@/components/template/Cabecalho";
+import Rodape from "@/components/template/Rodape";
 import React, { useState, useEffect, useMemo } from "react";
 
 const HeroSection: React.FC = () => {
@@ -34,16 +35,18 @@ const HeroSection: React.FC = () => {
   }, [currentWord, isDeleting, loopIndex, typingSpeed, words]);
 
   return (
-    <div className="flex flex-col items-center pb-20 justify-center h-screen">
+    <div className="flex flex-col min-h-screen ">
       <Cabecalho />
-      <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-center">
-        Olá, eu sou Alana Abreu
-      </h1>
-      <p className="text-2xl mg:text-4xl lg:text-4xl mt-4">
-        Desenvolvedora{" "}
-        <span className="text-blue-500">{currentWord}</span>
-        <span className="blinking-cursor"></span>
-      </p>
+      <div className="flex flex-col mb-12 items-center justify-center flex-grow text-center">
+        <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-center">
+          Olá, eu sou Alana Abreu
+        </h1>
+        <p className="text-2xl mg:text-4xl lg:text-4xl mt-4">
+          Desenvolvedora{" "}
+          <span className="text-blue-500">{currentWord}</span>
+          <span className="blinking-cursor"></span>
+        </p>
+      </div>
       <style jsx>{`
         .blinking-cursor {
         border-right: 2px solid black; /* Cor preta no modo claro */
@@ -65,6 +68,7 @@ const HeroSection: React.FC = () => {
         }
       }
       `}</style>
+      <Rodape />
     </div>
   );
 };
