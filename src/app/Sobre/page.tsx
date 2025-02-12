@@ -2,7 +2,7 @@ import Cabecalho from "@/components/template/Cabecalho";
 import Rodape from "@/components/template/Rodape";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { Timeline } from "@/components/ui/timeline";
-import { div, h1 } from "framer-motion/client";
+
 
 
 export default function Sobre() {
