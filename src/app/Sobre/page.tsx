@@ -25,7 +25,7 @@ export default function Sobre() {
                     <div className=" w-48 ">
                         <img src="/imagens/perfil.jpeg" alt="perfil" />
                     </div>
-                    <div className="w-2/5 p-6 flex flex-col">
+                    <div className="w-3/4 md:w-2/5 p-6 flex flex-col">
                         <h1 className="font-bold text-center md:text-start">Alana Carolina Pereira Abreu</h1>
 
                         <br />
@@ -44,16 +44,16 @@ export default function Sobre() {
                 <h2 className="mt-16 font-bold">Principais Ferramentas</h2>
                 <InfiniteMovingCards items={items} direction="left" speed="fast" pauseOnHover={true} />
 
-                <div className="w-3/4 p-6 flex flex-col">
-                    <h2 className=" mt-6 text-center text-5xl font-mono">Experiência Profissional</h2>
+                <div className=" lg:w-3/4 p-6 flex flex-col">
+                    <h2 className=" mt-6 text-center text-2xl md:text-5xl font-mono">Experiência Profissional</h2>
                 <Timeline 
                     data={[
                         {
-                            title: "G2BC — Iniciação Científica",
+                            title: "G2BC - Iniciação Científica",
                             content: (
                                 <div>
                                 <h1 className="font-bold">SET 2024 - ATUAL</h1> <br />
-                                <p className="text-lg">Pesquisa interdisciplinar analisando dados genômicos, epidemiológicos e climáticos do vírus da dengue (DENV) na Bahia, focando em padrões de incidência e fatores de risco. As atividades incluem coleta, organização e análise de dados com modelos de séries temporais, reforçando habilidades em ciência de dados, estatística e programação, integrando Sistemas de Informação à bioinformática e saúde pública.</p>
+                                <p className="text-lg text-justify">Pesquisa interdisciplinar analisando dados genômicos, epidemiológicos e climáticos do vírus da dengue (DENV) na Bahia, focando em padrões de incidência e fatores de risco. As atividades incluem coleta, organização e análise de dados com modelos de séries temporais, reforçando habilidades em ciência de dados, estatística e programação, integrando Sistemas de Informação à bioinformática e saúde pública.</p>
                                 </div>
                             ),
                         },
@@ -62,7 +62,7 @@ export default function Sobre() {
                             content: (
                                 <div>
                                 <h1 className="font-bold">JUL 2022 - OUT 2023</h1> <br />
-                                <p className="text-lg">Responsável pela documentação das rotinas e colaboração com a equipe nos setores de faturamento, financeiro, ouvidoria, recursos humanos e gerenciais. As principais atividades incluíam organização de documentos para faturamento, emissão de GRUs, boletos e CNVs, cobrança, suporte aos inquilinos, elaboração de contratos, lançamentos financeiros, organização de relatórios SEFIP e criação de planilhas. </p>
+                                <p className="text-lg text-justify">Responsável pela documentação das rotinas e colaboração com a equipe nos setores de faturamento, financeiro, ouvidoria, recursos humanos e gerenciais. As principais atividades incluíam organização de documentos para faturamento, emissão de GRUs, boletos e CNVs, cobrança, suporte aos inquilinos, elaboração de contratos, lançamentos financeiros, organização de relatórios SEFIP e criação de planilhas. </p>
                                 </div>
                             ),
                         },  
@@ -73,8 +73,8 @@ export default function Sobre() {
                     
                 </div>
               
-                <h2 className="font-bold mt-5">Redes Sociais</h2>
-                <div className="flex flex-1 gap-5 m-4 mb-10">
+                <h2 className="font-bold mt-8">Redes Sociais</h2>
+                <div className="flex flex-1 gap-5 m-4 mb-14">
                     <a href="https://www.linkedin.com/in/alana-abreu/" target="_blank">
                     <img src="/imagens/linkedin.svg" alt="linkedin" className="md:h-14 md:w-14 transition-transform duration-300 ease-in-out transform hover:scale-125"/>
                     </a>
