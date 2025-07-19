@@ -11,10 +11,10 @@ export interface Projetos {
 export const projetos: Projetos[] = [
     {
         id: 1,
-        titulo: 'Projeto Organo',
-        descricao: 'Projeto de página simples para inserir dados em um card para colaboradores de uma empressa ficticia. Meu primeiro projeto em React puro que realizei em um dos cursos da Alura.',
-        imagem: '/imagens/projetoDestaque4.png',
-        categoria: [4], 
+        titulo: 'Upa Agora',
+        descricao: 'Desenvolvi um Sistema Web para monitoramento colaborativo da lotação de unidades de saúde, inspirado no modelo de Crowdsourcing. O projeto foi construído com backend em Spring Boot e frontend em React, seguindo princípios de boas práticas como SOLID e aplicando padrões de projeto GoF, como Factory Method, Facade e Observer. (Responsividade em desenvolvimento.)',
+        imagem: '/imagens/upaagora.png',
+        categoria: [5, 6, 12, 7 ], 
         saibaMais: 'https://projeto-organo.vercel.app/',
         invertido: false,
         

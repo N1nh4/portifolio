@@ -13,6 +13,7 @@ export const tecnologias: { [id: number]: Tecnologia } = {
     7: { nome: 'TS', cor: '#3178C6' },
     8: { nome: 'Python', cor: '#3776AB' },
     9: { nome: 'C', cor: '#659AD2' },
-    10: { nome: 'Java', cor: '#007396' },
+    10: { nome: 'Java', cor: '#B07219' },
     11: { nome: 'Flask', cor: '#000000' },
+    12: { nome: 'Spring', cor: '#6DB33F' },
 };

@@ -43,11 +43,11 @@ export const ProjetosGeral: ProjetosGeral[] = [
     },
     {
         id: 5,
-        titulo: 'Portifólio',
-        descricao: 'Projeto deste portifólio. Consiste as principais informações sobre mim e meus projetos. Usando framework e tecnologias do frontend, como React, Next, TailwindCSS e Typescript.',
-        imagem: '/imagens/projeto5.jpeg',
-        categoria: [4, 5, 6, 7],
-        saibaMais: '',
+        titulo: 'Projeto Organo',
+        descricao: 'Projeto de página simples para inserir dados em um card para colaboradores de uma empressa ficticia. Meu primeiro projeto em React puro que realizei em um dos cursos da Alura.',
+        imagem: '/imagens/projetoDestaque4.png',
+        categoria: [4],
+        saibaMais: 'https://projeto-organo.vercel.app/',
     },
     {
         id: 6,
