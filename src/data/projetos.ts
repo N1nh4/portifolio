@@ -15,17 +15,17 @@ export const projetos: Projetos[] = [
         descricao: 'Desenvolvi um Sistema Web para monitoramento colaborativo da lotação de unidades de saúde, inspirado no modelo de Crowdsourcing. O projeto foi construído com backend em Spring Boot e frontend em React, seguindo princípios de boas práticas como SOLID e aplicando padrões de projeto GoF, como Factory Method, Facade e Observer. (Responsividade em desenvolvimento.)',
         imagem: '/imagens/upaagora.png',
         categoria: [5, 6, 12, 7 ], 
-        saibaMais: 'https://projeto-organo.vercel.app/',
+        saibaMais: 'https://github.com/N1nh4/frontend-lab-web',
         invertido: false,
         
     },
     {
         id: 2,
-        titulo: 'Sistema de Troca',
-        descricao: 'Projeto desenvolvido por alunos da Uneb para a disciplina de LP3. O projeto consiste em um sistema de trocas de produtos, onde o usuário pode cadastrar produtos para troca e visualizar produtos de outros usuários. Fui responsável pelo frontend do projeto. ',
-        imagem: '/imagens/projetoDestaque2.png',
-        categoria: [4, 3, 10],
-        saibaMais: 'https://github.com/brugabi/Sistemas-de-Troca',
+        titulo: 'Agenda Contatos',
+        descricao: 'Aplicação web com Spring Boot no backend e React com Next.js no frontend, simulando uma agenda de contatos com anotações. O backend e o banco de dados foram hospedados no Render, enquanto o frontend foi implantado no Vercel. O projeto demonstra a integração entre API REST e interface web moderna, com funcionalidades de CRUD para contatos e anotações personalizadas, persistência de dados e Deploy em ambientes na nuvem.',
+        imagem: '/imagens/projetoAgenda.png',
+        categoria: [5, 6, 12, 7],
+        saibaMais: 'https://agenda-frontend-xi.vercel.app/',
         invertido: true,
     },
     {

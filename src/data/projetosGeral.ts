@@ -88,6 +88,22 @@ export const ProjetosGeral: ProjetosGeral[] = [
         imagem: '/imagens/sistemaArquivos.png',
         categoria: [8],
         saibaMais: 'https://github.com/N1nh4/projeto-terminal-linux',
+    },
+    {
+        id: 11,
+        titulo: 'API Cid-10',
+        descricao: 'API REST para consulta ao banco de dados do CID-10. O sistema lê os dados a partir de um arquivo JSON e permite realizar buscas por código ou descrição via requisições HTTP GET.',
+        imagem: '/imagens/apiCid-10.png',
+        categoria: [8, 11],
+        saibaMais: 'https://github.com/N1nh4/api-cid-10',
+    },
+    {
+        id: 12,
+        titulo: 'Sistema de Troca',
+        descricao: 'Projeto consiste em um sistema de trocas de produtos, onde o usuário pode cadastrar produtos para troca e visualizar produtos de outros usuários. Fui responsável pelo frontend do projeto. ',
+        imagem: '/imagens/projetoDestaque2.png',
+        categoria: [4, 3, 10],
+        saibaMais: 'https://github.com/brugabi/Sistemas-de-Troca',
     }
 
 ]
