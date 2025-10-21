@@ -3,19 +3,7 @@ import Cabecalho from "@/components/template/Cabecalho";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 
 
-export default function Certificados() {
-    return (
-        <div className="mt-14 h-[calc(100vh-3rem)]  overflow-y-auto overflow-x-hidden">
-            <Cabecalho />
-            <div className="max-w-7xl mx-auto px-8">
-                <HoverEffect items={projects} />
-            </div>
-        </div>
-
-    )
-}
-
-export const projects = [
+const projects = [
   {
     title: "",
     description:
@@ -117,3 +105,17 @@ export const projects = [
  
   
 ];
+
+
+export default function Certificados() {
+    return (
+        <div className="mt-14 h-[calc(100vh-3rem)]  overflow-y-auto overflow-x-hidden">
+            <Cabecalho />
+            <div className="max-w-7xl mx-auto px-8">
+                <HoverEffect items={projects} />
+            </div>
+        </div>
+
+    )
+}
+
