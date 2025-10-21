@@ -1,5 +1,6 @@
 'use client';
-import { IconDownload, IconHome, IconNotes, IconTool } from "@tabler/icons-react";
+import { IconAward, IconAwardFilled, IconAwardOff, IconDownload, IconHome, IconNotes, IconTool } from "@tabler/icons-react";
+import { Award } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -41,6 +42,12 @@ export default function Cabecalho() {
         <div className={`flex ${pathname === '/Sobre' ? 'text-blue-500' : ''} hover:text-blue-500`}>
           <IconNotes viewBox="2 0 24 21" size={18} className="mr-1"/>
           <span className="hidden md:block">Sobre mim</span>
+        </div> 
+      </Link>
+      <Link href={"/Certificados"}>
+        <div className={`flex ${pathname === '/Certificados' ? 'text-blue-500' : ''} hover:text-blue-500`}>
+          <Award viewBox="2 0 24 21" size={18} className="mr-1"/>
+          <span className="hidden md:block">Certificados</span>
         </div> 
       </Link>
 
