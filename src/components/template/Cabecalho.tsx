@@ -1,5 +1,5 @@
 'use client';
-import { IconAward, IconAwardFilled, IconAwardOff, IconDownload, IconHome, IconNotes, IconTool } from "@tabler/icons-react";
+import { IconDownload, IconHome, IconNotes, IconTool } from "@tabler/icons-react";
 import { Award } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

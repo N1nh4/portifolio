@@ -114,6 +114,6 @@ export const projects = [
     link: "https://cursos.alura.com.br/certificate/e1908762-0ef0-456b-894a-48030edaa981",
     imagem: "/certificados/sql-mysql.png"
   },
-
+ 
   
 ];
