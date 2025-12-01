@@ -14,11 +14,7 @@ export const projetos: Projetos[] = [
     titulo: "Upa Agora",
     descricao:
       "Desenvolvi um Sistema Web para monitoramento colaborativo da lotação de unidades de saúde, inspirado no modelo de Crowdsourcing. O projeto foi construído com backend em Spring Boot e frontend em React, seguindo princípios de boas práticas como SOLID e aplicando padrões de projeto GoF, como Factory Method, Facade e Observer. (Responsividade em desenvolvimento.)",
-    imagem: [
-      "/imagens/upaagora.png",
-      "/imagens/projetoAgenda.png",
-      "/imagens/projetoDestaque3.png",
-    ],
+    imagem: ["/imagens/upaagora.png"],
     categoria: [5, 6, 12, 7],
     saibaMais: "https://github.com/N1nh4/frontend-lab-web",
     invertido: false,
@@ -32,9 +28,7 @@ export const projetos: Projetos[] = [
       "/imagens/projetoDestaque/iaEditais/iaEditais1.png",
       "/imagens/projetoDestaque/iaEditais/iaEditais2.png",
       "/imagens/projetoDestaque/iaEditais/iaEditais3.png",
-      "/imagens/projetoDestaque/iaEditais/iaEditais4.png",
       "/imagens/projetoDestaque/iaEditais/iaEditais5.png",
-      "/imagens/projetoDestaque/iaEditais/iaEditais6.png",
       "/imagens/projetoDestaque/iaEditais/iaEditais7.png",
       "/imagens/projetoDestaque/iaEditais/iaEditais8.png",
       "/imagens/projetoDestaque/iaEditais/iaEditais9.png",
