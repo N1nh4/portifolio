@@ -6,11 +6,12 @@ import Cabecalho from "@/components/template/Cabecalho";
 import { projetos } from "@/data/projetos";
 import { ProjetosGeral } from "@/data/projetosGeral";
 import Rodape from "@/components/template/Rodape";
+import CarouselProjetoDestaque from "@/components/CarouselProjetoDestaque";
 
 export default function Projetos() {
   const getVariants = (invertido: boolean) => ({
-    hidden: { opacity: 0, x: invertido ? 50 : -50 }, 
-    visible: { opacity: 1, x: 0 }, 
+    hidden: { opacity: 0, x: invertido ? 50 : -50 },
+    visible: { opacity: 1, x: 0 },
   });
 
   return (
@@ -57,7 +58,7 @@ export default function Projetos() {
             ))}
           </div>
         </div>
-      <Rodape />
+        <Rodape />
       </div>
     </div>
   );
