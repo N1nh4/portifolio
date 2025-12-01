@@ -6,7 +6,6 @@ import Cabecalho from "@/components/template/Cabecalho";
 import { projetos } from "@/data/projetos";
 import { ProjetosGeral } from "@/data/projetosGeral";
 import Rodape from "@/components/template/Rodape";
-import CarouselProjetoDestaque from "@/components/CarouselProjetoDestaque";
 
 export default function Projetos() {
   const getVariants = (invertido: boolean) => ({

@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { tecnologias } from "@/data/tecnologias";
 import CarouselProjetoDestaque from "./CarouselProjetoDestaque";
 
