@@ -19,9 +19,12 @@ export default function CarouselProjetoDestaque({
 }: CarouselProjetoDestaqueProps) {
   return (
     <Carousel className="w-full max-w-lg">
-      <CarouselContent>
+      <CarouselContent className="ml-0">
         {imagem.map((id) => (
-          <CarouselItem key={id}>
+          <CarouselItem
+            key={id}
+            className="pl-0 flex justify-center items-center"
+          >
             <div className="p-1">
               <Image key={id} src={id} alt={titulo} width={500} height={300} />
             </div>
