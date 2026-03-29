@@ -6,6 +6,24 @@ const projects = [
   {
     title: "",
     description: "",
+    link: "https://atlanticoavanti.ensinio.com/c/14106381774375145",
+    imagem: "/certificados/bootcamp-avanti.png",
+  },
+  {
+    title: "",
+    description: "",
+    link: "https://drive.google.com/file/d/1uHWcDofZNVRlVxsCoY7NRzPlYf2Dvsov/view",
+    imagem: "/certificados/premiacao.png",
+  },
+  {
+    title: "",
+    description: "",
+    link: "https://www.redecidada.org.br/projetos/ford-enter/",
+    imagem: "/certificados/rede-cidada.png",
+  },
+  {
+    title: "",
+    description: "",
     link: "https://cursos.alura.com.br/certificate/5c7f4533-ec95-44e3-8c7e-1776a229bd23?lang",
     imagem: "/certificados/react-js.png",
   },
