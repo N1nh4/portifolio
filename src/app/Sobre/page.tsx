@@ -81,28 +81,28 @@ export default function Sobre() {
                   </div>
                 ),
               },
-              {
-                title:
-                  "Horizon Inovação e Tecnologia - Estágio em desenvolvimento fullstack",
-                content: (
-                  <div>
-                    <h1 className="font-bold">AGO 2025 - SET 2025</h1> <br />
-                    <p className="text-lg text-justify">
-                      Atuei na manutenção e evolução de sistemas web,
-                      desenvolvendo funcionalidades, interfaces e módulos com
-                      Laravel (PHP), React, Vue.js e TypeScript. Trabalhei com
-                      PostgreSQL, MySQL e Supabase, realizando ajustes e
-                      integrações. Participei de projetos ágeis, utilizando
-                      Monday para gestão das tasks, além de atuar na correção de
-                      bugs, implementação de testes, uso de Docker em servidores
-                      Linux e versionamento de código com Git. Também tive
-                      contato com ferramentas de suporte à produtividade e
-                      inteligência artificial, como Cursor e Lovable, para
-                      otimizar partes do processo de desenvolvimento.
-                    </p>
-                  </div>
-                ),
-              },
+              // {
+              //   title:
+              //     "Horizon Inovação e Tecnologia - Estágio em desenvolvimento fullstack",
+              //   content: (
+              //     <div>
+              //       <h1 className="font-bold">AGO 2025 - SET 2025</h1> <br />
+              //       <p className="text-lg text-justify">
+              //         Atuei na manutenção e evolução de sistemas web,
+              //         desenvolvendo funcionalidades, interfaces e módulos com
+              //         Laravel (PHP), React, Vue.js e TypeScript. Trabalhei com
+              //         PostgreSQL, MySQL e Supabase, realizando ajustes e
+              //         integrações. Participei de projetos ágeis, utilizando
+              //         Monday para gestão das tasks, além de atuar na correção de
+              //         bugs, implementação de testes, uso de Docker em servidores
+              //         Linux e versionamento de código com Git. Também tive
+              //         contato com ferramentas de suporte à produtividade e
+              //         inteligência artificial, como Cursor e Lovable, para
+              //         otimizar partes do processo de desenvolvimento.
+              //       </p>
+              //     </div>
+              //   ),
+              // },
               {
                 title: "G2BC - Bolsista em Iniciação Científica",
                 content: (
