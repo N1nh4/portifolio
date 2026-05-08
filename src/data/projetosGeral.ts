@@ -28,12 +28,12 @@ export const ProjetosGeral: ProjetosGeral[] = [
   },
   {
     id: 3,
-    titulo: "Cordel Parallax Scrolling",
+    titulo: "Desafio Ford <Enter>",
     descricao:
-      "Site responsivel de Cordel Moderno escrito por Milton Duarte. Aqui aprendi a usar o efeito parallax scrolling pelo Curso em Vídeo.",
-    imagem: "/imagens/projeto3.jpeg",
-    categoria: [1, 2],
-    saibaMais: "https://n1nh4.github.io/desafio-cordel/",
+      "Projeto desenvolvido no programa de capacitação Ford <Enter>, com desenvolvimento de páginas web voltadas para Ford.",
+    imagem: "/imagens/ford-web.png",
+    categoria: [1, 2, 3],
+    saibaMais: "https://github.com/N1nh4/projeto-web-ford-enter",
   },
   {
     id: 4,
@@ -73,12 +73,13 @@ export const ProjetosGeral: ProjetosGeral[] = [
   },
   {
     id: 8,
-    titulo: "Modelo Redes socias",
+    titulo: "Reconfiguração de Manufatura",
     descricao:
-      "Modelo de redes sociais com links para as principais redes sociais. Desafio proposto pela plataforma Frontend Mentor.",
-    imagem: "/imagens/projeto8.jpeg",
-    categoria: [1, 2],
-    saibaMais: "https://n1nh4.github.io/Links-redes-sociais-/",
+      "Projeto desenvolvido em Python utilizando algoritmos de busca para otimizar a reconfiguração de uma célula de manufatura robótica diante de falhas e mudanças de produção.",
+    imagem: "/imagens/manufatura-ia.png",
+    categoria: [8],
+    saibaMais:
+      "https://github.com/N1nh4/sistema-reconfiguracao-manufatura-robotica",
   },
   {
     id: 9,
@@ -118,21 +119,20 @@ export const ProjetosGeral: ProjetosGeral[] = [
   },
   {
     id: 13,
-    titulo: "Desafio Ford <Enter>",
+    titulo: "Modelo Redes socias",
     descricao:
-      "Projeto desenvolvido no programa de capacitação Ford <Enter>, com desenvolvimento de páginas web voltadas para Ford.",
-    imagem: "/imagens/ford-web.png",
-    categoria: [1, 2, 3],
-    saibaMais: "https://github.com/N1nh4/projeto-web-ford-enter",
+      "Modelo de redes sociais com links para as principais redes sociais. Desafio proposto pela plataforma Frontend Mentor.",
+    imagem: "/imagens/projeto8.jpeg",
+    categoria: [1, 2],
+    saibaMais: "https://n1nh4.github.io/Links-redes-sociais-/",
   },
   {
     id: 14,
-    titulo: "Reconfiguração de Manufatura",
+    titulo: "Cordel Parallax Scrolling",
     descricao:
-      "Projeto desenvolvido em Python utilizando algoritmos de busca para otimizar a reconfiguração de uma célula de manufatura robótica diante de falhas e mudanças de produção.",
-    imagem: "/imagens/ia-manufatura.png",
-    categoria: [8],
-    saibaMais:
-      "https://github.com/N1nh4/sistema-reconfiguracao-manufatura-robotica",
+      "Site responsivel de Cordel Moderno escrito por Milton Duarte. Aqui aprendi a usar o efeito parallax scrolling pelo Curso em Vídeo.",
+    imagem: "/imagens/projeto3.jpeg",
+    categoria: [1, 2],
+    saibaMais: "https://n1nh4.github.io/desafio-cordel/",
   },
 ];
