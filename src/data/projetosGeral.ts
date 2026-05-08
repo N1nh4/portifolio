@@ -1,110 +1,138 @@
 export interface ProjetosGeral {
-    id: number;
-    titulo: string;
-    descricao: string;
-    imagem: string;
-    categoria: number[];
-    saibaMais: string;
+  id: number;
+  titulo: string;
+  descricao: string;
+  imagem: string;
+  categoria: number[];
+  saibaMais: string;
 }
 
 export const ProjetosGeral: ProjetosGeral[] = [
-    {
-        id: 1,
-        titulo: 'Landing Page',
-        descricao: 'Projeto de uma Langing Page responsiva de um formulário de inscrição para newsletter com mensagem de sucesso. Desafio proposto pela plataforma Frontend Mentor. ',
-        imagem: '/imagens/projeto1.jpeg',
-        categoria: [1, 2, 3], 
-        saibaMais: 'https://n1nh4.github.io/Landing-page/',
-        
-    },
-    {
-        id: 2,
-        titulo: 'Projeto Android',
-        descricao: 'Meu primeiro site responsivel sobre curiosidades de tecnologias. Trabalhei com as principais funcionalidades do html e css para o Curso em Vídeo. ',
-        imagem: '/imagens/projeto2.jpeg',
-        categoria: [1, 2],
-        saibaMais: 'https://n1nh4.github.io/projeto-android',
-    },
-    {
-        id: 3,
-        titulo: 'Cordel Parallax Scrolling',
-        descricao: 'Site responsivel de Cordel Moderno escrito por Milton Duarte. Aqui aprendi a usar o efeito parallax scrolling pelo Curso em Vídeo.',
-        imagem: '/imagens/projeto3.jpeg',
-        categoria: [1, 2],
-        saibaMais: 'https://n1nh4.github.io/desafio-cordel/',
-    },
-    {
-        id: 4,
-        titulo: 'Jogo Super Mario flip',
-        descricao: 'Projeto autoral de um mini jogo com a temática do Super Mario World utilizando somente ferramentas classicas do frontend puro.',
-        imagem: '/imagens/projeto4.jpeg',
-        categoria: [1, 2, 3],
-        saibaMais: 'https://n1nh4.github.io/jogo-mario/',
-    },
-    {
-        id: 5,
-        titulo: 'Projeto Organo',
-        descricao: 'Projeto de página simples para inserir dados em um card para colaboradores de uma empressa ficticia. Meu primeiro projeto em React puro que realizei em um dos cursos da Alura.',
-        imagem: '/imagens/projetoDestaque4.png',
-        categoria: [4],
-        saibaMais: 'https://projeto-organo.vercel.app/',
-    },
-    {
-        id: 6,
-        titulo: 'Forms Processo Seletivo',
-        descricao: 'Projeto de um formulário de inscrição para processo seletivo. Usando somente ferramentas classicas do frontend. ',
-        imagem: '/imagens/projeto6.jpeg',
-        categoria: [1, 2, 3],
-        saibaMais: 'https://n1nh4.github.io/forms-edital/',
-    },
-    {
-        id: 7,
-        titulo: 'Maze Runner',
-        descricao: 'Projeto em pyhton de um maze runner. O objetivo era programar algoritmos de busca para encontrar os 8 tesouros mais próximos.',
-        imagem: '/imagens/projeto7.jpeg',
-        categoria: [8],
-        saibaMais: 'https://github.com/N1nh4/projeto-maze-hunter',
-    },
-    {
-        id: 8,
-        titulo: 'Modelo Redes socias',
-        descricao: 'Modelo de redes sociais com links para as principais redes sociais. Desafio proposto pela plataforma Frontend Mentor.',
-        imagem: '/imagens/projeto8.jpeg',
-        categoria: [1, 2],
-        saibaMais: 'https://n1nh4.github.io/Links-redes-sociais-/',
-    },
-    {
-        id: 9,
-        titulo: 'Compilador Proc',
-        descricao: 'Projeto de um compilador em C da linguagem ficticia proc. Nele compoem um analisador Lexico, Sintatico e Semantico, tabela de simbolos e uma parte da geração de código. ',
-        imagem: '/imagens/afd.png',
-        categoria: [9],
-        saibaMais: 'https://github.com/N1nh4/proc-compilador-versao-final',
-    },
-    {
-        id: 10,
-        titulo: 'Sistema de arquivos',
-        descricao: 'Simulador funcional de um terminal Linux feito em Python. Ele replica a experiência de uso de um terminal real, executando comandos comuns de sistemas operacionais baseados em Linux.',
-        imagem: '/imagens/sistemaArquivos.png',
-        categoria: [8],
-        saibaMais: 'https://github.com/N1nh4/projeto-terminal-linux',
-    },
-    {
-        id: 11,
-        titulo: 'API Cid-10',
-        descricao: 'API REST para consulta ao banco de dados do CID-10. O sistema lê os dados a partir de um arquivo JSON e permite realizar buscas por código ou descrição via requisições HTTP GET.',
-        imagem: '/imagens/apiCid-10.png',
-        categoria: [8, 11],
-        saibaMais: 'https://github.com/N1nh4/api-cid-10',
-    },
-    {
-        id: 12,
-        titulo: 'Sistema de Troca',
-        descricao: 'Projeto consiste em um sistema de trocas de produtos, onde o usuário pode cadastrar produtos para troca e visualizar produtos de outros usuários. Fui responsável pelo frontend do projeto. ',
-        imagem: '/imagens/projetoDestaque2.png',
-        categoria: [4, 3, 10],
-        saibaMais: 'https://github.com/brugabi/Sistemas-de-Troca',
-    }
-
-]
-
+  {
+    id: 1,
+    titulo: "Landing Page",
+    descricao:
+      "Projeto de uma Langing Page responsiva de um formulário de inscrição para newsletter com mensagem de sucesso. Desafio proposto pela plataforma Frontend Mentor. ",
+    imagem: "/imagens/projeto1.jpeg",
+    categoria: [1, 2, 3],
+    saibaMais: "https://n1nh4.github.io/Landing-page/",
+  },
+  {
+    id: 2,
+    titulo: "Projeto Android",
+    descricao:
+      "Meu primeiro site responsivel sobre curiosidades de tecnologias. Trabalhei com as principais funcionalidades do html e css para o Curso em Vídeo. ",
+    imagem: "/imagens/projeto2.jpeg",
+    categoria: [1, 2],
+    saibaMais: "https://n1nh4.github.io/projeto-android",
+  },
+  {
+    id: 3,
+    titulo: "Cordel Parallax Scrolling",
+    descricao:
+      "Site responsivel de Cordel Moderno escrito por Milton Duarte. Aqui aprendi a usar o efeito parallax scrolling pelo Curso em Vídeo.",
+    imagem: "/imagens/projeto3.jpeg",
+    categoria: [1, 2],
+    saibaMais: "https://n1nh4.github.io/desafio-cordel/",
+  },
+  {
+    id: 4,
+    titulo: "Jogo Super Mario flip",
+    descricao:
+      "Projeto autoral de um mini jogo com a temática do Super Mario World utilizando somente ferramentas classicas do frontend puro.",
+    imagem: "/imagens/projeto4.jpeg",
+    categoria: [1, 2, 3],
+    saibaMais: "https://n1nh4.github.io/jogo-mario/",
+  },
+  {
+    id: 5,
+    titulo: "Projeto Organo",
+    descricao:
+      "Projeto de página simples para inserir dados em um card para colaboradores de uma empressa ficticia. Meu primeiro projeto em React puro que realizei em um dos cursos da Alura.",
+    imagem: "/imagens/projetoDestaque4.png",
+    categoria: [4],
+    saibaMais: "https://projeto-organo.vercel.app/",
+  },
+  {
+    id: 6,
+    titulo: "Forms Processo Seletivo",
+    descricao:
+      "Projeto de um formulário de inscrição para processo seletivo. Usando somente ferramentas classicas do frontend. ",
+    imagem: "/imagens/projeto6.jpeg",
+    categoria: [1, 2, 3],
+    saibaMais: "https://n1nh4.github.io/forms-edital/",
+  },
+  {
+    id: 7,
+    titulo: "Maze Runner",
+    descricao:
+      "Projeto em pyhton de um maze runner. O objetivo era programar algoritmos de busca para encontrar os 8 tesouros mais próximos.",
+    imagem: "/imagens/projeto7.jpeg",
+    categoria: [8],
+    saibaMais: "https://github.com/N1nh4/projeto-maze-hunter",
+  },
+  {
+    id: 8,
+    titulo: "Modelo Redes socias",
+    descricao:
+      "Modelo de redes sociais com links para as principais redes sociais. Desafio proposto pela plataforma Frontend Mentor.",
+    imagem: "/imagens/projeto8.jpeg",
+    categoria: [1, 2],
+    saibaMais: "https://n1nh4.github.io/Links-redes-sociais-/",
+  },
+  {
+    id: 9,
+    titulo: "Compilador Proc",
+    descricao:
+      "Projeto de um compilador em C da linguagem ficticia proc. Nele compoem um analisador Lexico, Sintatico e Semantico, tabela de simbolos e uma parte da geração de código. ",
+    imagem: "/imagens/afd.png",
+    categoria: [9],
+    saibaMais: "https://github.com/N1nh4/proc-compilador-versao-final",
+  },
+  {
+    id: 10,
+    titulo: "Sistema de arquivos",
+    descricao:
+      "Simulador funcional de um terminal Linux feito em Python. Ele replica a experiência de uso de um terminal real, executando comandos comuns de sistemas operacionais baseados em Linux.",
+    imagem: "/imagens/sistemaArquivos.png",
+    categoria: [8],
+    saibaMais: "https://github.com/N1nh4/projeto-terminal-linux",
+  },
+  {
+    id: 11,
+    titulo: "API Cid-10",
+    descricao:
+      "API REST para consulta ao banco de dados do CID-10. O sistema lê os dados a partir de um arquivo JSON e permite realizar buscas por código ou descrição via requisições HTTP GET.",
+    imagem: "/imagens/apiCid-10.png",
+    categoria: [8, 11],
+    saibaMais: "https://github.com/N1nh4/api-cid-10",
+  },
+  {
+    id: 12,
+    titulo: "Sistema de Troca",
+    descricao:
+      "Projeto consiste em um sistema de trocas de produtos, onde o usuário pode cadastrar produtos para troca e visualizar produtos de outros usuários. Fui responsável pelo frontend do projeto. ",
+    imagem: "/imagens/projetoDestaque2.png",
+    categoria: [4, 3, 10],
+    saibaMais: "https://github.com/brugabi/Sistemas-de-Troca",
+  },
+  {
+    id: 13,
+    titulo: "Desafio Ford <Enter>",
+    descricao:
+      "Projeto desenvolvido no programa de capacitação Ford <Enter>, com desenvolvimento de páginas web voltadas para Ford.",
+    imagem: "/imagens/ford-web.png",
+    categoria: [1, 2, 3],
+    saibaMais: "https://github.com/N1nh4/projeto-web-ford-enter",
+  },
+  {
+    id: 14,
+    titulo: "Reconfiguração de Manufatura",
+    descricao:
+      "Projeto desenvolvido em Python utilizando algoritmos de busca para otimizar a reconfiguração de uma célula de manufatura robótica diante de falhas e mudanças de produção.",
+    imagem: "/imagens/ia-manufatura.png",
+    categoria: [8],
+    saibaMais:
+      "https://github.com/N1nh4/sistema-reconfiguracao-manufatura-robotica",
+  },
+];
